@@ -1,3 +1,3 @@
-# feed-reader-testing
+# Feed Reader Testing
 
 ## Project Overview
