@@ -30,6 +30,7 @@ $(function() {
     /* This test loops through each feed in the
      * allFeeds object and ensures it has a URL defined
      * and that the URL is not empty.
+     * https://matthewcranford.com/feed-reader-walkthrough-part-2-writing-the-first-tests/
      */
 
     it('URLs are defined and not empty', function() {
@@ -62,6 +63,7 @@ $(function() {
     /* This test ensures the menu element is hidden
      * by default. This checks if the menu-hidden class
      * is being used here.
+     * Helpful resource for this suite: https://matthewcranford.com/feed-reader-walkthrough-part-3-menu-test-suite/
      */
 
     it('menu element is hidden by default', function() {
@@ -72,6 +74,7 @@ $(function() {
     /* This test ensures the menu changes visibility
      * when the menu icon is clicked. This test clicks
      * the menu twice to test the change.
+     * Helpful resource for this test: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/click
      */
 
     it('menu changes when clicked', function() {
@@ -113,6 +116,7 @@ $(function() {
   /* This a test that ensures when a new feed is loaded
    * by the loadFeed function that the content actually changes
    * and loadFeed() is asynchronous here.
+   * Inspiration for this suite from: https://github.com/bviengineer/frontend-nanodegree-feedreader/blob/0a7f3a0ac40663d4c910575a610ec4760d190de8/jasmine/spec/feedreader.js
    */
 
   describe('New Feed Selection', function() {
@@ -133,7 +137,7 @@ $(function() {
     /* After each feed is loaded, the feeds are compared with each
      * other to ensure they contain different content.
      */
-     
+
     it('content changed', function() {
       expect(feedOne === feedTwo).toBe(false);
     });

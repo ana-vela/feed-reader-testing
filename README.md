@@ -20,4 +20,4 @@ Fork or download this repo to access the tests. Open the index.html file in your
 
 [Menu Test Suite](https://matthewcranford.com/feed-reader-walkthrough-part-3-menu-test-suite/)
 
-[asynchronous Tests](https://github.com/bviengineer/frontend-nanodegree-feedreader/blob/0a7f3a0ac40663d4c910575a610ec4760d190de8/jasmine/spec/feedreader.js)
+[Asynchronous Tests](https://github.com/bviengineer/frontend-nanodegree-feedreader/blob/0a7f3a0ac40663d4c910575a610ec4760d190de8/jasmine/spec/feedreader.js)
